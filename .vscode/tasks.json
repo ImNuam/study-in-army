@@ -11,7 +11,7 @@
         {
             "label": "make",
             "type": "shell",
-            "command": "g++ -g ${file} -o ${fileDirname}/${fileBasenameNoExtension}.out",
+            "command": "g++ -g \"${file}\" -o \"${fileDirname}/${fileBasenameNoExtension}.out\"",
             "problemMatcher": [],
             "group": {
                 "kind": "build",
