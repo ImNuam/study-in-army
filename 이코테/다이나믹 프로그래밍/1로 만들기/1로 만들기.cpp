@@ -4,7 +4,7 @@ using namespace std;
 int main(){
     int n;
     cin >> n;
-    int dp[30000];
+    int dp[1000001];
     for(int i=1; i<=n; i++){ //다이나믹 프로그래밍을 풀 때 점화식으로 표현할 수 있는지 생각을 해보자
         if(i==1) dp[i] = 0;
         if(i==3 || i==5 || i==2) dp[i]=1;
